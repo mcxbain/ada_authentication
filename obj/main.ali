@@ -1,0 +1,193 @@
+V "GNAT Lib v2014"
+M P W=b
+A -gnatA
+A -gnat05
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat12
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_UNCHECKED_ACCESS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U main%b		main.adb		13382ac0 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W auth%s		auth.adb		auth.ali
+W aws%s			aws.ads			aws.ali
+W aws.response%s	aws-response.adb	aws-response.ali
+W aws.server%s		aws-server.ads		aws-server.ali
+W aws.status%s		aws-status.adb		aws-status.ali
+W ticket%s		ticket.adb		ticket.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-calend.ads		20140406181358 d86d6c8c ada.calendar%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140406181359 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20140406181357 61e5e089 ada.containers%s
+D a-cdlili.ads		20140406181358 c3008bbb ada.containers.doubly_linked_lists%s
+D a-cohata.ads		20140406181358 04abccc5 ada.containers.hash_tables%s
+D a-cihama.ads		20140406181356 6caf5205 ada.containers.indefinite_hashed_maps%s
+D a-cihase.ads		20140406181359 1ae1f0a8 ada.containers.indefinite_hashed_sets%s
+D a-ciorma.ads		20140406181355 3cb72d96 ada.containers.indefinite_ordered_maps%s
+D a-coinve.ads		20140406181355 cfa7d9ff ada.containers.indefinite_vectors%s
+D a-crbltr.ads		20140406181357 b8a2dc05 ada.containers.red_black_trees%s
+D a-convec.ads		20140406181359 0aaf3975 ada.containers.vectors%s
+D a-direct.ads		20140406181354 9d42e46d ada.directories%s
+D a-envvar.ads		20140406181356 00080416 ada.environment_variables%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20140406181354 7c7305e9 ada.iterator_interfaces%s
+D a-reatim.ads		20140406181358 63f07669 ada.real_time%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-string.ads		20140406181359 90ac6797 ada.strings%s
+D a-strhas.ads		20140406181354 c71c2a52 ada.strings.hash%s
+D a-strmap.ads		20140406181359 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140406181359 3f91d4c5 ada.strings.unbounded%s
+D a-tasatt.ads		20140406181359 4a311a1e ada.task_attributes%s
+D a-taside.ads		20140406181354 9a31e556 ada.task_identification%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D auth.ads		20150322125527 5c583266 auth%s
+D aws.ads		20140406210054 b622d641 aws%s
+D aws-attachments.ads	20140406210054 e30cac0c aws.attachments%s
+D aws-config.ads	20140406210054 8939dd85 aws.config%s
+D aws-containers.ads	20140406210054 c7ab8288 aws.containers%s
+D aws-containers-memory_streams.ads  20140406210054 ea28c859 aws.containers.memory_streams%s
+D aws-containers-string_vectors.ads  20140406210054 b5692847 aws.containers.string_vectors%s
+D aws-containers-tables.ads  20140406210054 fcb9f7ac aws.containers.tables%s
+D aws-default.ads	20140406210054 8d6e9475 aws.default%s
+D aws-dispatchers.ads	20140406210054 b26135c0 aws.dispatchers%s
+D aws-exceptions.ads	20140406210054 c721ca62 aws.exceptions%s
+D aws-headers.ads	20140406210054 eae08740 aws.headers%s
+D aws-hotplug.ads	20140406210054 4336d5f9 aws.hotplug%s
+D aws-log.ads		20140406210054 156a93ee aws.log%s
+D aws-messages.ads	20140406210054 50f60689 aws.messages%s
+D aws-mime.ads		20140406210054 b188039e aws.mime%s
+D aws-net.ads		20140406210054 c4deb9af aws.net%s
+D aws-net-acceptors.ads	20140406210054 6207a0a9 aws.net.acceptors%s
+D aws-net-generic_sets.ads  20140406210054 c413b2ae aws.net.generic_sets%s
+D aws-net-ssl.ads	20140406210054 d73960a9 aws.net.ssl%s
+D aws-net-std.ads	20140406210054 510e3b85 aws.net.std%s
+D aws-parameters.ads	20140406210054 0f8312c2 aws.parameters%s
+D aws-resources.ads	20140406210054 425d4c31 aws.resources%s
+D aws-resources-streams.ads  20140406210054 0c8701d9 aws.resources.streams%s
+D aws-response.ads	20140406210054 66b64eee aws.response%s
+D aws-server.ads	20140406210054 79961eb0 aws.server%s
+D aws-session.ads	20140406210054 952c284a aws.session%s
+D aws-status.ads	20140406210054 af56cd23 aws.status%s
+D aws-url.ads		20140406210054 87c35340 aws.url%s
+D aws-utils.ads		20140406210054 efc06b14 aws.utils%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-regexp.ads		20140406181358 691be386 gnat.regexp%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D main.adb		20150322134818 1fe70929 main%b
+D memory_streams.ads	20140406210054 e7c465d7 memory_streams%s
+D ssl.ads		20140406210054 3abd0079 ssl%s
+D ssl-thin__dummy.ads	20140406210054 ce499f1b ssl.thin%s
+D system.ads		20140406181356 bd760655 system%s
+D s-atacco.ads		20140406181355 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20140406181359 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-linux.ads		20140406181355 befedf55 system.linux%s
+D s-multip.ads		20140406181358 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20140410143800 04020b75 system.os_constants%s
+D s-osinte.ads		20140406181359 fd138fd1 system.os_interface%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-regexp.ads		20140406181358 9c7d27a7 system.regexp%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stausa.ads		20140406181355 017a0a05 system.stack_usage%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-tasinf.ads		20140406181357 2b3f8252 system.task_info%s
+D s-taspri.ads		20140406181359 15f617a8 system.task_primitives%s
+D s-taprop.ads		20140406181355 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20140406181355 3f821f32 system.tasking%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D templates_parser.ads	20140406210054 b9138d88 templates_parser%s
+D templates_parser-utils.ads  20140406210054 7b06e9f7 templates_parser.utils%s
+D templates_parser_tasking.ads  20140406210054 4c0209f0 templates_parser_tasking%s
+D ticket.ads		20150322123522 d89c7926 ticket%s
+D zlib.ads		20140406210054 d33a5635 zlib%s
+X 1 ada.ads
+16K9*Ada 19e8 66|4r6 4r23
+X 19 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[10|69]>
+X 28 a-textio.ads
+49K13*Text_IO 471e16 66|4w10 4r27
+263U14*Put_Line 66|20s7 47s4 48s4
+X 31 auth.ads
+4K9*Auth 11e9 66|5w6 22r10 23r45 23r79 23r112 30r16 33r23 37r20
+6V13*Login{55|55R9} 66|23s84 23s117 33s28 37s25
+7V13*Logout{boolean} 66|23s50
+8V13*LoginCheck{boolean} 66|30s21
+9V13*SessionCheck{boolean} 66|22s15
+X 32 aws.ads
+32K9*AWS 41e8 66|1r6 2r6 3r6 12r13 13r14 15r41 15r65 16r32 25r25 46r4 47r31
+. 49r4 49r20 50r4
+34a4*Version{string} 66|47r35
+X 55 aws-response.ads
+50K13*Response 419e17 66|3w10 15r69 25r29
+55R9*Data<17|43R9> 408e14 66|15r78
+58P9*Callback(55R9)
+101V13*Build{55R9} 66|25s38
+X 56 aws-server.ads
+51K13*Server 525e15 66|1w10 12r17 46r8 49r8 49r24 50r8
+53R9*HTTP<17|50R9> 500e14 66|12r24
+88U14*Start 66|46s15
+91p7 Callback{55|58P9} 66|46r42
+94i7 Port{natural} 66|46r90
+96b7 Session{boolean} 66|46r104
+117U14*Shutdown 66|50s15
+123n36*Q_Key_Pressed{123E9} 66|49r31
+125U14*Wait 66|49s15
+X 58 aws-status.ads
+50K13*Status 382e15 66|2w10 13r18 15r45 16r36
+52R9*Data 380e14 66|13r25 15r52
+73V13*URI{string} 66|16s43
+X 60 aws-utils.ads
+391h9*Clonable
+X 66 main.adb
+10U11*Main 10b11 53l5 53t9
+12r4 Server{56|53R9} 46m21 46r21 50m24 50r24
+13r4 Request{58|52R9}
+15V13 MainDispatcher{55|55R9} 15b13 15>28 42l8 42t22 46r54
+15r28 Request{58|52R9} 16r48 22r28 23r57 23r90 23r123 24r73 30r32 31r44 33r34
+. 37r31
+16a7 URL{string} 20r36 23r16 24r19 29r13
+X 86 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 100 ticket.ads
+4K9*Ticket 66|6w6 24r52 31r23 100|8e11
+6V13*GetTicketList{55|55R9} 66|24s59 31s30
+

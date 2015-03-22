@@ -1,0 +1,37 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/mcxbain/application/php/workspace/main/main.gpr
+20141203183916
+/usr/gnat/lib/gnat/xmlada_unicode.gpr
+20140422121059
+/usr/gnat/lib/gnat/xmlada_input.gpr
+20140422121059
+/usr/gnat/lib/gnat/xmlada_sax.gpr
+20140422121059
+/usr/gnat/lib/gnat/xmlada_dom.gpr
+20140422121059
+/usr/gnat/lib/gnat/xmlada_shared.gpr
+20140422121059
+/usr/gnat/lib/gnat/xmlada_schema.gpr
+20140422121059
+/usr/gnat/share/gpr/aws.gpr
+20141129183759
+[BOUND OBJECT FILES]
+/home/mcxbain/application/php/workspace/main/obj/auth.o
+/home/mcxbain/application/php/workspace/main/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/mcxbain/application/php/workspace/main/obj/
+-L/home/mcxbain/application/php/workspace/main/obj/
+-L/usr/gnat/lib/aws/
+-L/usr/gnat/lib/xmlada/static/
+-L/usr/gnat/lib/gcc/i686-pc-linux-gnu/4.7.4/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/i686-pc-linux-gnu/4.7.4/adalib/libgnarl.a
+/usr/gnat/lib/gcc/i686-pc-linux-gnu/4.7.4/adalib/libgnat.a
+-lpthread

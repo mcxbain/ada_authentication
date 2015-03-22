@@ -1,0 +1,55 @@
+V "GNAT Lib v2014"
+M P W=b
+A -gnatA
+A -gnat05
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat12
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P NO ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U db%b			db.adb			3220fec2 OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D db.adb		20141217200723 0a4d0b16 db%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D system.ads		20140406181356 bd760655 system%s
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 6|1r6 1r23
+X 5 a-textio.ads
+49K13*Text_IO 471e16 6|1w10 1r27
+263U14*Put_Line 6|9s4
+X 6 db.adb
+4U11*db 4b11 19l5 19t7
+

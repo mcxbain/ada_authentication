@@ -1,0 +1,27 @@
+V "GNAT Lib v2014"
+A -gnatA
+A -gnat05
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat12
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U test%b		test.adb		b9623c06 OO PK
+
+D test.adb		20141203185933 b9623c06 test%b
+
+

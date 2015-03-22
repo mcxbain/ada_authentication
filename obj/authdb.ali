@@ -1,0 +1,33 @@
+V "GNAT Lib v2014"
+A -gnatA
+A -gnat05
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat12
+A -gnatc
+A -gnatQ
+A -gnatI
+A -gnatws
+A -gnatyN
+A -gnatVn
+A -mtune=generic
+A -march=pentiumpro
+P CE NO ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U authdb%s		authdb.ads		016eda3f EE OO PK
+W gnatcoll.sql.sqlite%s	gnatcoll-sql-sqlite.ads	gnatcoll-sql-sqlite.ali
+
+D authdb.ads		20141217195945 016eda3f authdb%s
+D gnatcoll-sql-sqlite.ads  00000000000000 00000000
+X 1 authdb.ads
+3K9*Authdb 8l5 8e11
+5V13*GetUserName{string}
+6V13*GetUserPassword{string}
+
