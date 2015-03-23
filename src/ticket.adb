@@ -10,7 +10,7 @@ package body Ticket is
    begin
 
       Put_Line("Ticket -> Get Ticket List");
-      return AWS.Response.Build("text/html", "Ticket List");
+      return AWS.Response.Build("text/html", "ADA Ticket List");
 
    end GetTicketList;
 
