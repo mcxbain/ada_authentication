@@ -1,5 +1,3 @@
-# ADA AWS 
-Ada Web Server Authentication
-<br><br>make
-<br>cd exec
-<br>./main
+# Ada_Web_server 
+Basic Authentication Ada Web Server.
+
