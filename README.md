@@ -1,5 +1,5 @@
 # Ada Web Server 
-Basic Authentication Ada Web Server Framework.<br>
+Basic Authentication using the Ada Web Server Framework.<br>
 <br>
 http://www.adacore.com/aws<br>
 http://libre.adacore.com/tools/aws/<br>
