@@ -5,3 +5,5 @@ http://www.adacore.com/aws<br>
 http://libre.adacore.com/tools/aws/<br>
 https://docs.adacore.com/aws-docs/aws/<br>
 
+<br>
+gprbuild main.gpr
